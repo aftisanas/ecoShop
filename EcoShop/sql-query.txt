@@ -1,0 +1,30 @@
+/*********************** CREATE DATABASE **********************/
+
+	CREATE DATA BASE ecoShop;
+
+/*********************** CREATE TABLES **********************/
+--------- ADMIN TABLE ----------
+CREATE TABLE `admin` (
+	`id` INT(11) AUTO_INCREMENT PRIMARY KEY,
+	`name` VARCHAR(50),
+	`email` VARCHAR(150),
+	`pass` VARCHAR(50),
+);
+
+--------- PRODUCT TABLE --------
+CREATE TABLE `products` (
+	`id` INT(11) AUTO_INCREMENT PRIMARY KEY,
+	`prod_name` VARCHAR(30),
+	`image` TEXT,
+	`price` FLOAT,
+	`description` TEXT
+);
+
+--------- USER TABLE -----------
+CREATE TABLE `user` (
+	`id` INT(11) AUTO_INCREMENT PRIMARY KEY,
+	`fullName` VARCHAR(50),
+	`username` VARCHAR(50),
+	`email` VARCHAR(100),
+	`password` VARCHAR(100)
+)
