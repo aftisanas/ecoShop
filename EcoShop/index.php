@@ -2,10 +2,10 @@
 session_start();
 
 if (!isset($_SESSION['userType'])) {
-    header("Location: login.php");
+    header("Location: ./log/login.php");
 }
 if (empty($_SESSION['userType'])) {
-    header("Location: login.php");
+    header("Location: ./log/login.php");
 }
 
 
