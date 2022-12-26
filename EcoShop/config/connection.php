@@ -2,7 +2,7 @@
 
 try {
     $db_host = 'localhost';
-    $db_name = 'monoshop';
+    $db_name = 'ecoshop';
     $db_root = 'root';
     $db_pass = '';
     
